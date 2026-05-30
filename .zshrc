@@ -3,8 +3,6 @@
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export EDITOR=nvim
-export VISUAL=nvim
 
 bindkey -v
 # Set name of the theme to load --- if set to "random", it will

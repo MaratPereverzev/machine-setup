@@ -1,0 +1,19 @@
+[[manager.prepend_keymap]]
+on   = [ "h" ]
+run  = "arrow_left"
+desc = "Move cursor left"
+
+[[manager.prepend_keymap]]
+on   = [ "j" ]
+run  = "arrow_down"  
+desc = "Move cursor down"
+
+[[manager.prepend_keymap]]
+on   = [ "k" ]
+run  = "arrow_up"
+desc = "Move cursor up"
+
+[[manager.prepend_keymap]]
+on   = [ "l" ]
+run  = "arrow_right"
+desc = "Move cursor right"

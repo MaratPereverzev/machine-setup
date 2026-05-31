@@ -115,4 +115,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias poff='systemctl poweroff'
+alias rebt='systemctl reboot'
+alias lout='loginctl terminate-session self'
+alias susp='systemctl suspend'
+alias hibr='systemctl hibernate'
+
 bindkey -v
